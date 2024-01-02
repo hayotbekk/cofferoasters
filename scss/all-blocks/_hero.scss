@@ -1,0 +1,36 @@
+.hero{
+    background-image: url(./../../images/hero-back.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    border-radius: 20px;
+    
+    height: 600px;
+    margin-bottom: 140px;
+
+
+}
+.hero-left{
+    margin-top: 111px ;
+    margin-right: 470px;
+}
+.hero-left-h1{
+    width: 493px;
+    font-weight: 900;
+    font-size: 72px;
+    color: $light-orange;
+    font-family: 'Fraunces', serif;
+    line-height: 72px;
+    margin-bottom: 39px;
+    
+}
+.hero-left-p{
+    font-family: 'Barlow', sans-serif;
+    width: 445px;
+    font-weight: 400;
+    font-size: $medium-size;
+    color: $light-orange;
+    line-height: 26px;
+    opacity: 80%;
+    margin-bottom: 56px;
+}

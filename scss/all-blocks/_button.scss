@@ -1,0 +1,17 @@
+// hero btn
+.hero-left-btn{
+    font-family: 'Fraunces', serif;
+    width: 217px;
+    height: 56px;
+    font-weight: 900;
+    font-size: $medium2-size;
+    line-height: 25px;
+    color: $light-orange;
+    background-color: $dark-syan;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.hero-left-btn:hover{
+    background-color: $btn-hover;
+}

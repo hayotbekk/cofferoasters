@@ -1,0 +1,19 @@
+.nav-list{
+    display: flex;
+    align-items: center;
+    gap: 33px;
+}
+
+
+.nav-link{
+    color: $grey;
+    font-weight: 700;
+    font-size: $small-size;
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+.nav-link:hover{
+    color: $dark-grey;
+    font-weight: 800;
+    transition: all .3s ease;
+}

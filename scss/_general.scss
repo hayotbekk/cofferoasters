@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ol,ul{
+  list-style: none;
+
+}
+a{
+  text-decoration: none;
+}
+body{
+  font-family: 'Barlow', sans-serif;
+  font-family: 'Hind Madurai', sans-serif;
+  font-family: 'Roboto', sans-serif;
+
+  // fraunces//
+  font-family: 'Barlow', sans-serif;
+  font-family: 'Fraunces', serif;
+  font-family: 'Hind Madurai', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
