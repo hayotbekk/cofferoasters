@@ -37,6 +37,7 @@
 
 .hero {
   background-image: url(./../../images/hero-back.png);
+  background-repeat: no-repeat;
   background-position: center;
   display: flex;
   border-radius: 20px;
@@ -86,8 +87,8 @@
 
 .nav-link:hover {
   color: #333D4B;
-  font-weight: 800;
-  transition: all 0.3s ease;
+  font-weight: 700;
+  transition: all 0.3s ease-in;
 }
 
 .our-text {
@@ -142,6 +143,7 @@
   height: 577px;
   display: flex;
   border-radius: 10px;
+  display: block;
 }
 
 .choose-main {
@@ -170,6 +172,10 @@
   color: #FEFCF7;
   opacity: 80%;
   text-align: center;
+}
+
+.choose-down-item {
+  box-sizing: 350px 380px;
 }
 
 .visually-hidden {
