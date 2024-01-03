@@ -37,7 +37,6 @@
 
 .hero {
   background-image: url(./../../images/hero-back.png);
-  background-repeat: no-repeat;
   background-position: center;
   display: flex;
   border-radius: 20px;
@@ -96,7 +95,7 @@
   height: 196px;
   align-items: center;
   position: absolute;
-  left: 200px;
+  margin-left: 70px;
 }
 
 .our-img {
@@ -134,6 +133,43 @@
   font-size: 16px;
   line-height: 26px;
   color: #333D4B;
+  margin-bottom: 199px;
+}
+
+.choose {
+  background-color: #333D4B;
+  background-repeat: no-repeat;
+  height: 577px;
+  display: flex;
+  border-radius: 10px;
+}
+
+.choose-main {
+  margin-left: 359px;
+  margin-top: 100px;
+}
+
+.choose-h2 {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;
+  width: 329px;
+  height: 48px;
+  margin-left: 78px;
+  margin-bottom: 32px;
+}
+
+.choose-p {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  width: 540px;
+  color: #FEFCF7;
+  opacity: 80%;
+  text-align: center;
 }
 
 .visually-hidden {
