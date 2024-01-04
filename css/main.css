@@ -6,6 +6,12 @@
   padding: 0 20px;
 }
 
+.card {
+  max-width: 1045px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 .hero-left-btn {
   font-family: "Fraunces", serif;
   width: 217px;
@@ -143,6 +149,7 @@
   height: 577px;
   display: flow-root;
   border-radius: 10px;
+  margin-bottom: 351px;
 }
 
 .choose-main {
@@ -213,6 +220,15 @@
   font-size: 16px;
   line-height: 26px;
   margin-left: 47px;
+}
+
+.how-hero {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+  text-align: left;
 }
 
 .visually-hidden {
