@@ -8,7 +8,7 @@
 
 .card {
   max-width: 1045px;
-  margin: 0 auto;
+  margin: 0 auto 0 160px;
   padding: 0 20px;
 }
 
@@ -229,6 +229,23 @@
   line-height: 32px;
   color: #83888F;
   text-align: left;
+  margin-bottom: 80px;
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+}
+.circle span {
+  border: 2px solid #0E8784;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: #FEFCF7;
+  margin-right: 349px;
+  z-index: 1;
+}
+.circle img {
+  position: absolute;
 }
 
 .visually-hidden {
