@@ -1,9 +1,8 @@
 .footer-container{
     border: 1px solid $dark-grey;
-    padding: 47px 85px;
+    height: 120px;
     display: flex;
     align-items: center;
-    
     background-color: #2C343E;
     margin-bottom: 88px;
 }
@@ -27,3 +26,4 @@
     gap: 24px;
     cursor: pointer;
 }
+

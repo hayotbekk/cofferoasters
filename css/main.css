@@ -52,7 +52,7 @@
 
 .footer-container {
   border: 1px solid #333D4B;
-  padding: 47px 85px;
+  height: 120px;
   display: flex;
   align-items: center;
   background-color: #2C343E;
@@ -91,7 +91,7 @@
 }
 
 .hero {
-  background-image: url(./../../images/hero-back.png);
+  background-image: url(/images/hero-back.png);
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
