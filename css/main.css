@@ -42,11 +42,40 @@
   font-size: 18px;
   line-height: 25px;
   text-align: center;
+  margin-bottom: 200px;
   cursor: pointer;
 }
 
 .how-it button:active {
   background-color: #66D2CF;
+}
+
+.footer-container {
+  border: 1px solid #333D4B;
+  padding: 47px 85px;
+  display: flex;
+  align-items: center;
+  background-color: #2C343E;
+  margin-bottom: 88px;
+}
+
+.footer-logo {
+  margin-right: 103px;
+  width: 236px;
+  height: 26px;
+}
+
+.footer-list {
+  display: flex;
+  align-items: center;
+  gap: 33px;
+  /* margin-right: 171px; */
+}
+
+.advertising {
+  display: flex;
+  align-items: center;
+  gap: 24px;
 }
 
 .header {

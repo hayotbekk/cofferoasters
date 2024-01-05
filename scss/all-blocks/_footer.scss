@@ -1,0 +1,25 @@
+.footer-container{
+    border: 1px solid $dark-grey;
+    padding: 47px 85px;
+    display: flex;
+    align-items: center;
+    
+    background-color: #2C343E;
+    margin-bottom: 88px;
+}
+.footer-logo{
+    margin-right: 103px;
+    width: 236px;
+    height: 26px;
+}
+.footer-list{
+    display: flex;
+    align-items: center;
+    gap: 33px;
+    /* margin-right: 171px; */
+}
+.advertising{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
