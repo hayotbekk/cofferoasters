@@ -12,6 +12,27 @@
     border-radius: 5px;
     cursor: pointer;
 }
-.hero-left-btn:hover{
+.hero-left-btn:active{
+    background-color: $btn-hover;
+}
+
+// how it button
+
+
+.how-it button{
+    font-family: 'Fraunces', serif;
+    width: 217px;
+    height: 56px;
+    background-color: $dark-syan;
+    color: $light-orange;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin-left: 20px;
+    font-size: $medium2-size;
+    line-height: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+.how-it button:active{
     background-color: $btn-hover;
 }

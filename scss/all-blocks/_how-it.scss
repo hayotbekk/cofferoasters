@@ -12,6 +12,7 @@
 .circle{
     display: flex;
     align-items: center;
+    margin-bottom: 67px;
 
     span{
         border: 2px solid $dark-syan;
@@ -21,12 +22,22 @@
         margin-right: 349px;
 
         z-index: 1;
+
+        transition: all .3s ease;
     }
 
     img{
         position: absolute;
     }
+
 }
+
+.circle span:hover{
+    transition: all .3s ease;
+    transform: scale(2);
+
+}
+
 
 // up-footer
 
@@ -44,6 +55,7 @@
     font-family: 'Fraunces', serif;
 }
 .how-it-item h2{
+    width: 255px;
     color: #333D4B;
     font-size: 32px;
     line-height: 36px;
@@ -51,40 +63,11 @@
     margin-top: 38px;
 }
 .how-it-item p{
+    width: 285px;
     margin-top: 42px;
     font-weight: 400;
     color: #333D4B;
     font-family: 'Barlow', sans-serif;
     font-size: 16px;
     line-height: 26px;
-}
-.how-it-container button{
-    width: 217px;
-    height: 56px;
-    background-color: #0E8784;
-    color: #FEFCF7;
-    border: #0E8784 1px solid;
-    border-radius: 10px;
-    margin-bottom:140px ;
-    margin-left: 20px;
-    font-size: 18px;
-    font-family: 'Fraunces', serif;
-    line-height: 25px;
-    text-align: center;
-    margin-bottom: 200px;
-}
-.how-it-container button:active{
-    width: 217px;
-    height: 56px;
-    background-color: #66D2CF;
-    color: #FEFCF7;
-    border: #66D2CF 1px solid;
-    border-radius: 10px;
-    margin-bottom:140px ;
-    margin-left: 20px;
-    font-size: 18px;
-    font-family: 'Fraunces', serif;
-    line-height: 25px;
-    text-align: center;
-    margin-bottom: 200px;
 }
