@@ -1,8 +1,9 @@
-.hero{
+.hero-container{
     background-image: url(/images/hero-back.png);
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
+    border: 1px solid transparent;
     border-radius: 20px;
     
     height: 600px;
@@ -34,3 +35,7 @@
     opacity: 80%;
     margin-bottom: 56px;
 }
+
+
+
+// about-us styles
