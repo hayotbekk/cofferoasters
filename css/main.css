@@ -66,16 +66,17 @@
 }
 
 .footer-list {
-  display: flex;
-  align-items: center;
-  gap: 33px;
-  /* margin-right: 171px; */
+  margin-right: 369px;
+}
+.footer-list li {
+  color: #FEFCF7;
 }
 
-.advertising {
+.local {
   display: flex;
   align-items: center;
   gap: 24px;
+  cursor: pointer;
 }
 
 .header {
@@ -141,6 +142,26 @@
 
 .nav-link:hover {
   color: #333D4B;
+  font-weight: 700;
+  transition: all 0.3s ease-in;
+}
+
+.footer-list {
+  display: flex;
+  align-items: center;
+  gap: 33px;
+}
+
+.footer-link {
+  color: #83888F;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #FEFCF7;
   font-weight: 700;
   transition: all 0.3s ease-in;
 }

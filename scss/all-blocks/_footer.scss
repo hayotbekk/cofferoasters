@@ -13,13 +13,17 @@
     height: 26px;
 }
 .footer-list{
-    display: flex;
-    align-items: center;
-    gap: 33px;
-    /* margin-right: 171px; */
+    margin-right: 369px;
+
+    li{
+        color: $light-orange;
+    }
 }
-.advertising{
+
+
+.local{
     display: flex;
     align-items: center;
     gap: 24px;
+    cursor: pointer;
 }
