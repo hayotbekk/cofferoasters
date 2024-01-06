@@ -460,29 +460,29 @@
   line-height: 26px;
 }
 
-.oh-container {
+.our-state-container {
   margin-bottom: 168px;
+  width: 1045px;
 }
 
-.oh-container-h2 {
+.our-state-container-h2 {
+  font-family: "Fraunces", serif;
   color: #83888F;
   font-size: 24px;
   line-height: 32px;
-  font-family: "Fraunces", serif;
   font-weight: 900;
   margin-bottom: 72px;
 }
 
-.oh-list {
+.our-state-list {
   display: flex;
   justify-content: space-between;
 }
 
-.oh-item img {
+.our-state-item img {
   margin-bottom: 46px;
 }
-
-.oh-item h2 {
+.our-state-item h2 {
   font-size: 32px;
   line-height: 36px;
   color: #333D4B;
@@ -490,8 +490,7 @@
   font-weight: 900;
   margin-bottom: 24px;
 }
-
-.oh-item p {
+.our-state-item p {
   font-family: "Barlow", sans-serif;
   color: #333D4B;
   font-size: 16px;

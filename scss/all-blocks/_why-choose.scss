@@ -100,7 +100,7 @@
     width: 517px;
     margin-top: 88px;
     color: $light-orange;
-    font-size: 40px;
+    font-size: $pro1-large-size;
     line-height: 48px;
     font-weight: 900;
     font-family: 'Fraunces', serif;
@@ -109,7 +109,7 @@
     p{
         width: 540px;
         font-weight: 400;
-        font-size: 16px;
+        font-size: $medium-size;
         line-height: 26px;
         font-family: 'Barlow', sans-serif;
         color: $light-orange;

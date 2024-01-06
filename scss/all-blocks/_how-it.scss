@@ -75,37 +75,48 @@
 
 // Our headquarters by about us---------------------------------------------------------------------------
 
-.oh-container{
+.our-state-container{
     margin-bottom: 168px;
+    width: 1045px;
 
 }
-.oh-container-h2{
-    color: #83888F;
-    font-size: 24px;
-    line-height: 32px;
+.our-state-container-h2{
     font-family: 'Fraunces', serif;
+    color: $grey;
+    font-size: $large-size;
+    line-height: $pro-large-size;
     font-weight: 900;
     margin-bottom: 72px;
 }
-.oh-list{
+.our-state-list{
     display: flex;
     justify-content: space-between;
 }
-.oh-item img{
-    margin-bottom: 46px;
+
+
+.our-state-item{
+    img{
+        margin-bottom: 46px;
+    }
+
+
+    h2{
+        font-size: $pro-large-size;
+        line-height: 36px;
+        color: #333D4B;
+        font-family: 'Fraunces', serif;
+        font-weight: 900;
+        margin-bottom: 24px;
+    }
+
+
+    p{
+        font-family: 'Barlow', sans-serif;
+        color: $dark-grey;
+        font-size: $medium-size;
+        line-height: 26px;
+        font-weight: 400;
+    }
+
 }
-.oh-item h2{
-    font-size: 32px;
-    line-height: 36px;
-    color: #333D4B;
-    font-family: 'Fraunces', serif;
-    font-weight: 900;
-    margin-bottom: 24px;
-}
-.oh-item p{
-    font-family: 'Barlow', sans-serif;
-    color: #333D4B;
-    font-size: 16px;
-    line-height: 26px;
-    font-weight: 400;
-}
+

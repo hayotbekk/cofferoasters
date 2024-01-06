@@ -58,7 +58,7 @@
 .our-com-h2{
     font-family: 'Fraunces', serif;
     color: $dark-grey;
-    font-size: 40px;
+    font-size: $pro1-large-size;
     font-weight: 900;
     line-height: 48px;
     margin-bottom: 32px;
@@ -67,7 +67,7 @@
     font-family: 'Barlow', sans-serif;
     width: 540px;
     opacity: 80%;
-    font-size: 16px;
+    font-size: $medium-size;
     color: $dark-grey;
     font-weight: 400;
     line-height: 26px;
