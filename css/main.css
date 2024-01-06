@@ -243,6 +243,37 @@
   margin-bottom: 199px;
 }
 
+.our-com-container {
+  display: flex;
+  align-items: center;
+  width: 1110px;
+  margin-bottom: 158px;
+}
+
+.our-com-left {
+  height: 520px;
+  margin-right: 125px;
+}
+
+.our-com-h2 {
+  font-family: "Fraunces", serif;
+  color: #333D4B;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 48px;
+  margin-bottom: 32px;
+}
+
+.our-com-p {
+  font-family: "Barlow", sans-serif;
+  width: 540px;
+  opacity: 80%;
+  font-size: 16px;
+  color: #333D4B;
+  font-weight: 400;
+  line-height: 26px;
+}
+
 .choose {
   background-color: #333D4B;
   background-repeat: no-repeat;
