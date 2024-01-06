@@ -79,3 +79,50 @@
     line-height: 26px;
     margin-left: 47px;
 }
+
+
+
+// uncompromising start !!!!! about us scss!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+.un-com-container{
+    background-color: $dark-grey;
+    height: 474px;
+    margin-bottom: 168px;
+    display: flex;
+    position: relative;
+    border-radius: 10px;
+}
+.un-com-left{
+    margin-left: 85px;
+
+    h2{
+    width: 517px;
+    margin-top: 88px;
+    color: $light-orange;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 900;
+    font-family: 'Fraunces', serif;
+    margin-bottom: 32px;
+    }
+    p{
+        width: 540px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        font-family: 'Barlow', sans-serif;
+        color: $light-orange;
+    
+    }
+}
+
+.un-com-right{
+    position: absolute;
+    right: 60px;
+    top: -80px;
+
+    img{
+        border-radius: 10px;
+    }
+}

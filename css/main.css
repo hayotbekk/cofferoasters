@@ -353,6 +353,46 @@
   margin-left: 47px;
 }
 
+.un-com-container {
+  background-color: #333D4B;
+  height: 474px;
+  margin-bottom: 168px;
+  display: flex;
+  position: relative;
+  border-radius: 10px;
+}
+
+.un-com-left {
+  margin-left: 85px;
+}
+.un-com-left h2 {
+  width: 517px;
+  margin-top: 88px;
+  color: #FEFCF7;
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 900;
+  font-family: "Fraunces", serif;
+  margin-bottom: 32px;
+}
+.un-com-left p {
+  width: 540px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "Barlow", sans-serif;
+  color: #FEFCF7;
+}
+
+.un-com-right {
+  position: absolute;
+  right: 60px;
+  top: -80px;
+}
+.un-com-right img {
+  border-radius: 10px;
+}
+
 .how-hero {
   font-family: "Fraunces", serif;
   font-weight: 900;
@@ -418,6 +458,45 @@
   font-family: "Barlow", sans-serif;
   font-size: 16px;
   line-height: 26px;
+}
+
+.oh-container {
+  margin-bottom: 168px;
+}
+
+.oh-container-h2 {
+  color: #83888F;
+  font-size: 24px;
+  line-height: 32px;
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  margin-bottom: 72px;
+}
+
+.oh-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.oh-item img {
+  margin-bottom: 46px;
+}
+
+.oh-item h2 {
+  font-size: 32px;
+  line-height: 36px;
+  color: #333D4B;
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  margin-bottom: 24px;
+}
+
+.oh-item p {
+  font-family: "Barlow", sans-serif;
+  color: #333D4B;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
 }
 
 .visually-hidden {
