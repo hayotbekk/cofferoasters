@@ -4,7 +4,7 @@
     background-position: center;
     display: flex;
     border: 1px solid transparent;
-    border-radius: 20px;
+    border-radius: 10px;
     
     height: 600px;
     margin-bottom: 140px;
@@ -39,3 +39,32 @@
 
 
 // about-us styles
+
+
+.about-us-hero-container{
+    background-image: url('/images/about-bg.png');
+    background-repeat: no-repeat;
+    height: 450px;
+    margin-bottom: 168px;
+}
+.about-us-hero-container h2{
+    font-family: 'Fraunces', serif;
+    width: 220px;
+    padding-top: 137px;
+    margin-bottom: 24px;
+    margin-left: 85px;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+    color: $light-orange;
+}
+.about-us-hero-container p{
+    font-family: 'Barlow', sans-serif;
+    margin-bottom: 137px;
+    margin-left: 85px;
+    width: 445px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: $light-orange;
+}
