@@ -9,3 +9,80 @@
 
 }
 
+.bars{
+    border: 0;
+    width: 16px;
+    height: 15px;
+    cursor: pointer;
+    display: none;
+}
+
+/* Add this to your existing CSS file or create a new one */
+
+/* Smaller screens */
+@media screen and (max-width: 768px) {
+    .bars {
+      display: block; /* Show the bars button */
+    }
+  
+    .nav {
+      display: none; /* Hide the navigation menu by default */
+      flex-direction: column; /* Stack menu items vertically */
+      position: absolute; /* Position the menu absolutely */
+      top: 200px; /* Adjust the top position as needed */
+      left: 0;
+      width: 100%;
+      background: rgb(255,255,255);
+      background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 19%, rgba(129,124,124,1) 100%);
+        
+      z-index: 1; /* Ensure the menu appears above other elements */
+      color: $dark-grey;
+    }
+  
+    .nav-list {
+      padding: 0; /* Remove default padding */
+      text-align: center; /* Center align menu items */
+      flex-direction: column;
+    }
+    
+    .nav-item {
+      margin-bottom: 10px; /* Add spacing between menu items */
+    }
+
+    .nav-link{
+        font-size: 50px;
+    }
+  
+    /* Show the navigation menu when bars button is clicked */
+    .bars.active + .nav {
+      display: flex;
+    }
+  }
+  
+
+// media--------------------------------------------media
+
+
+// @media only screen and (max-width: 767px){
+    
+//     .header-container{
+//         align-items: flex-start;
+//         display: inline-block;
+
+//     }
+    
+
+//     .nav{
+//         // display: none;
+//     }
+
+//     .nav-list{
+//         flex-direction: column;
+//         width: 400px;
+//         margin: 0 auto;
+
+//     }
+//     .bars{
+//         display: block;
+//     }
+// }
