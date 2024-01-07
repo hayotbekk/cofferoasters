@@ -120,3 +120,55 @@
 
 }
 
+// media ---- how it works-----------------------------------------------
+/* Add this to your existing CSS file or create a new one */
+
+/* Smaller screens */
+@media only screen and (max-width: 768px) {
+    .how-hero {
+        text-align: center; /* Center-align the heading on smaller screens */
+        align-items: center;
+
+        // margin-top: 1000px;
+        // position: relative;
+    }
+    .card{
+        margin: auto;
+        text-align: center;  
+        margin-top: 1100px;  
+    }
+
+    .circle {
+        display: none;
+    }
+
+    .how-it-list {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        gap: 20px; /* Adjust gap between items for better spacing on smaller screens */
+        // text-align: center; /* Center-align content on smaller screens */
+
+        align-items: center;
+    }
+
+    .how-it-item {
+        text-align: center; /* Center-align text on smaller screens */
+    }
+
+    .how-it-item span {
+        font-size: 72px; /* Decreased font-size for better readability on smaller screens */
+        line-height: 32px; /* Adjust line-height for better spacing */
+    }
+
+    .how-it-item h2 {
+        width: auto; /* Make the width auto for better responsiveness */
+
+    }
+
+    .how-it-item p {
+        width: auto; /* Make the width auto for better responsiveness */
+        margin-top: 20px; /* Adjust margin-top for better spacing on smaller screens */
+    }
+
+
+}
+

@@ -24,6 +24,7 @@
 @media only screen and (max-width: 768px) {
     .bars {
       display: block; /* Show the bars button */
+      font-size: $large-size;
     }
   
     .nav {

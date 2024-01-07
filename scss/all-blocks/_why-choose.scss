@@ -125,4 +125,58 @@
     img{
         border-radius: 10px;
     }
+}  
+
+
+// media why choose css
+
+/* Add this to your existing CSS file or create a new one */
+
+/* Smaller screens */
+@media only screen and (max-width: 768px) {
+    .choose-main {
+        margin-left: 20px; /* Adjust margin for better spacing on smaller screens */
+        text-align: center; /* Center-align content on smaller screens */
+    }
+
+    .choose-h2 {
+        width: auto; /* Make the width auto for better responsiveness */
+        font-size: $pro1-large-size; /* Decreased font-size for better readability on smaller screens */
+        line-height: 36px; /* Adjust line-height for better spacing */
+        margin-left: 0; /* Remove margin-left for center alignment */
+        margin-bottom: 20px; /* Decreased margin-bottom */
+    }
+
+    .choose-p {
+        width: auto; /* Make the width auto for better responsiveness */
+        font-size: $small-size; /* Decreased font-size for better readability on smaller screens */
+        margin-bottom: 30px; /* Decreased margin-bottom */
+    }
+
+    .choose-down-list {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+    }
+
+    .choose-down-item {
+        width: 382px; /* Make the width auto for better responsiveness */
+        height: 400px; /* Make the height auto for better responsiveness */
+        margin-right: 0; /* Remove margin-right for better spacing on smaller screens */
+        margin-bottom: 20px; /* Adjust margin-bottom for better spacing on smaller screens */
+    }
+
+    .choose-down-item-img {
+        margin-bottom: 20px; /* Decreased margin-bottom */
+        margin-top: 20px; /* Decreased margin-top */
+    }
+
+    .choose-down-item-h4 {
+        font-size: $medium-size; /* Decreased font-size for better readability on smaller screens */
+        line-height: $medium-size; /* Adjust line-height for better spacing */
+        margin-bottom: 10px; /* Decreased margin-bottom */
+    }
+
+    .choose-down-item-p {
+        width: auto; /* Make the width auto for better responsiveness */
+        margin-left: 0; /* Remove margin-left for better spacing on smaller screens */
+    }
 }
