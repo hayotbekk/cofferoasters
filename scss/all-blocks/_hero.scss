@@ -68,3 +68,33 @@
     line-height: 26px;
     color: $light-orange;
 }
+
+
+/* Add this to your existing CSS file or create a new one */
+
+/* Smaller screens */
+@media screen and (max-width: 768px) {
+    .hero-container {
+        height: 500px; /* Make the container's height auto for better responsiveness */
+        margin-bottom: 60px; /* Decreased margin-bottom */
+    }
+
+    .hero-left {
+        margin: 50px 20px; /* Adjust margin for better spacing on smaller screens */
+        text-align: center; /* Center-align content on smaller screens */
+    }
+
+    .hero-left-h1 {
+        width: auto; /* Make the width auto for better responsiveness */
+        font-size: 36px; /* Decreased font-size for better readability on smaller screens */
+        line-height: 40px; /* Adjust line-height for better spacing */
+        margin-bottom: 20px; /* Decreased margin-bottom */
+    }
+
+    .hero-left-p {
+        width: auto; /* Make the width auto for better responsiveness */
+        font-size: 16px; /* Decreased font-size for better readability on smaller screens */
+        line-height: 24px; /* Adjust line-height for better spacing */
+        margin-bottom: 30px; /* Decreased margin-bottom */
+    }
+}

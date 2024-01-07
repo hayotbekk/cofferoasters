@@ -73,3 +73,50 @@
     line-height: 26px;
 }
 //  our commitment end
+
+
+
+
+// media css--------------------------------------------------
+
+
+
+/* Add this to your existing CSS file or create a new one */
+
+/* Smaller screens */
+@media only screen and (max-width: 768px) {
+    .our-collection {
+        padding-top: 50px; /* Adjust padding for better spacing on smaller screens */
+    }
+
+    .our-text {
+        width: 100%;
+        margin-left: 0;
+        position: static;
+        text-align: center;
+        height: auto;
+    }
+
+    .our-list {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: center;
+    }
+
+    .our-item {
+        margin-right: 0;
+        margin-top: 20px;
+        text-align: center;
+        // width: 100%; /* Make items full-width on smaller screens */
+    }
+
+    .our-img {
+        margin-bottom: 20px; /* Decreased margin-bottom */
+    }
+
+    .our-h3,
+    .our-p {
+        // width: 100%; /* Make text full-width on smaller screens */
+        margin-bottom: 10px; /* Decreased margin-bottom */
+    }
+}
+
