@@ -79,6 +79,33 @@
   cursor: pointer;
 }
 
+/* Add this to your existing CSS file or create a new one */
+/* Smaller screens */
+@media screen and (max-width: 768px) {
+  .footer-container {
+    height: auto; /* Make the container's height auto for better responsiveness */
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    text-align: center; /* Center-align content on smaller screens */
+    padding: 20px; /* Adjust padding for better spacing on smaller screens */
+  }
+  .footer-logo {
+    margin-right: 0; /* Remove margin-right for better spacing on smaller screens */
+    margin-bottom: 50px; /* Adjust margin-bottom for better spacing on smaller screens */
+  }
+  .footer-list {
+    margin-right: 0; /* Remove margin-right for better spacing on smaller screens */
+    margin-bottom: 49px; /* Adjust margin-bottom for better spacing on smaller screens */
+    flex-direction: column;
+  }
+  .footer-list li {
+    display: block; /* Display list items as blocks for better spacing on smaller screens */
+    gap: 14px;
+  }
+  .local {
+    margin-right: 0; /* Remove margin-right for better spacing on smaller screens */
+    gap: 49px; /* Adjust gap between items for better spacing on smaller screens */
+  }
+}
 .header {
   padding-top: 44px;
   margin-bottom: 50px;
@@ -99,8 +126,11 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .header-logo {
+    margin-left: -20px;
+  }
   .bars {
-    display: block; /* Show the bars button */
+    display: block;
     font-size: 24px;
   }
   .nav {
@@ -111,15 +141,15 @@
     left: 0;
     width: 100%;
     background: rgb(255, 255, 255);
-    background: linear-gradient(0deg, rgba(255, 255, 255, 0.2246148459) 0%, rgb(255, 255, 255) 34%, rgb(129, 124, 124) 100%);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 34%, rgb(129, 124, 124) 100%);
     z-index: 1;
     color: #333D4B;
   }
   .nav-list {
     text-align: center;
     flex-direction: column;
-    padding-bottom: 300px;
-    padding-top: 170px;
+    padding-bottom: 150px;
+    padding-top: 100px;
   }
   .nav-item {
     margin-bottom: 10px;
@@ -204,7 +234,7 @@
 
 /* Add this to your existing CSS file or create a new one */
 /* Smaller screens */
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .hero-container {
     height: 500px; /* Make the container's height auto for better responsiveness */
     margin-bottom: 60px; /* Decreased margin-bottom */
@@ -224,6 +254,28 @@
     font-size: 16px; /* Decreased font-size for better readability on smaller screens */
     line-height: 24px; /* Adjust line-height for better spacing */
     margin-bottom: 30px; /* Decreased margin-bottom */
+  }
+}
+/* Add this to your existing CSS file or create a new one */
+/* Smaller screens */
+@media screen and (max-width: 768px) {
+  .about-us-hero-container {
+    background-position: center; /* Center the background image on smaller screens */
+    align-items: center;
+    text-align: center; /* Center-align content on smaller screens */
+    margin-bottom: 120px; /* Adjust margin-bottom for better spacing on smaller screens */
+    border-radius: 10px;
+    height: 400px;
+  }
+  .about-us-hero-container h2 {
+    padding-top: 20px; /* Adjust padding-top for better spacing on smaller screens */
+    margin-bottom: 20px; /* Adjust margin-bottom for better spacing on smaller screens */
+    text-align: center;
+  }
+  .about-us-hero-container p {
+    margin-bottom: 20px; /* Adjust margin-bottom for better spacing on smaller screens */
+    margin-left: 0; /* Remove margin-left for better spacing on smaller screens */
+    width: auto; /* Make the width auto for better responsiveness */
   }
 }
 .nav-list {
@@ -343,11 +395,9 @@
   line-height: 26px;
 }
 
-/* Add this to your existing CSS file or create a new one */
-/* Smaller screens */
 @media only screen and (max-width: 768px) {
   .our-collection {
-    padding-top: 50px; /* Adjust padding for better spacing on smaller screens */
+    padding-top: 50px;
   }
   .our-text {
     width: 100%;
@@ -357,7 +407,7 @@
     height: auto;
   }
   .our-list {
-    flex-direction: column; /* Stack items vertically on smaller screens */
+    flex-direction: column;
     align-items: center;
   }
   .our-item {
@@ -366,11 +416,40 @@
     text-align: center;
   }
   .our-img {
-    margin-bottom: 20px; /* Decreased margin-bottom */
+    margin-bottom: 20px;
   }
   .our-h3,
   .our-p {
-    margin-bottom: 10px; /* Decreased margin-bottom */
+    margin-bottom: 10px;
+  }
+}
+/* Add this to your existing CSS file or create a new one */
+/* Smaller screens */
+@media only screen and (max-width: 768px) {
+  .our-com-container {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    width: auto; /* Make the container's width auto for better responsiveness */
+    margin-bottom: 50px; /* Adjust margin-bottom for better spacing on smaller screens */
+  }
+  .our-com-left {
+    width: auto; /* Make the left container width 100% on smaller screens */
+    height: auto; /* Make the height auto for better responsiveness */
+    margin-right: 0; /* Remove margin-right for better spacing on smaller screens */
+    margin-bottom: 48px;
+  }
+  .our-com-right {
+    width: 100%; /* Make the right container width 100% on smaller screens */
+    text-align: center; /* Center-align content on smaller screens */
+    margin-bottom: 120px;
+  }
+  .our-com-h2 {
+    font-size: 40px; /* Decreased font-size for better readability on smaller screens */
+    line-height: 36px; /* Adjust line-height for better spacing on smaller screens */
+    margin-bottom: 30px; /* Adjust margin-bottom for better spacing on smaller screens */
+  }
+  .our-com-p {
+    width: auto; /* Make the width auto for better responsiveness */
+    margin-bottom: 20px; /* Adjust margin-bottom for better spacing n smaller screens */
   }
 }
 .choose {
@@ -515,8 +594,8 @@
     flex-direction: column; /* Stack items vertically on smaller screens */
   }
   .choose-down-item {
-    width: 382px; /* Make the width auto for better responsiveness */
-    height: 400px; /* Make the height auto for better responsiveness */
+    width: 342px; /* Make the width auto for better responsiveness */
+    height: 340px; /* Make the height auto for better responsiveness */
     margin-right: 0; /* Remove margin-right for better spacing on smaller screens */
     margin-bottom: 20px; /* Adjust margin-bottom for better spacing on smaller screens */
   }
@@ -532,6 +611,35 @@
   .choose-down-item-p {
     width: auto; /* Make the width auto for better responsiveness */
     margin-left: 0; /* Remove margin-left for better spacing on smaller screens */
+  }
+}
+@media only screen and (max-width: 768px) {
+  .un-com-container {
+    flex-direction: column;
+    height: 600px;
+    width: 400px;
+  }
+  .un-com-left {
+    margin-left: 60px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+  }
+  .un-com-left h2 {
+    text-align: center;
+    width: 280px;
+  }
+  .un-com-left p {
+    text-align: center;
+    width: 280px;
+  }
+  .un-com-right {
+    position: relative;
+    right: 0;
+    top: -300px;
+    align-items: center;
+    width: 279px;
+    height: 156px;
   }
 }
 .how-hero {

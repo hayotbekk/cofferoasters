@@ -158,8 +158,8 @@
     }
 
     .choose-down-item {
-        width: 382px; /* Make the width auto for better responsiveness */
-        height: 400px; /* Make the height auto for better responsiveness */
+        width: 342px; /* Make the width auto for better responsiveness */
+        height: 340px; /* Make the height auto for better responsiveness */
         margin-right: 0; /* Remove margin-right for better spacing on smaller screens */
         margin-bottom: 20px; /* Adjust margin-bottom for better spacing on smaller screens */
     }
@@ -179,4 +179,48 @@
         width: auto; /* Make the width auto for better responsiveness */
         margin-left: 0; /* Remove margin-left for better spacing on smaller screens */
     }
+}
+
+
+
+
+
+
+// media----uncompromising css--------------------------------------------------------------------------------------------------
+@media only screen and (max-width: 768px) {
+    .un-com-container {
+        flex-direction: column;
+        height: 600px;
+        width: 400px;
+    }
+
+    .un-com-left {
+        margin-left: 60px;
+        text-align: center;
+        position: absolute;
+        top: 0;
+        
+
+        h2{
+            text-align: center;
+            width: 280px;
+        }
+
+        p{
+            text-align: center;
+            width: 280px;
+        }
+    }
+
+    .un-com-right {
+        position: relative;
+        right: 0;
+        top: -300px;
+        align-items: center;
+        width: 279px;
+        height: 156px;
+        // margin-top: 20px; /* Masalan, kerak bo'lgan marginni o'zgartiring */
+    }
+
+
 }

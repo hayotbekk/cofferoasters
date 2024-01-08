@@ -77,16 +77,14 @@
 
 
 
-// media css--------------------------------------------------
+// media css---our collection-------------------------------------------------------------------------------------------------------------------------------
 
 
 
-/* Add this to your existing CSS file or create a new one */
 
-/* Smaller screens */
 @media only screen and (max-width: 768px) {
     .our-collection {
-        padding-top: 50px; /* Adjust padding for better spacing on smaller screens */
+        padding-top: 50px; 
     }
 
     .our-text {
@@ -98,7 +96,7 @@
     }
 
     .our-list {
-        flex-direction: column; /* Stack items vertically on smaller screens */
+        flex-direction: column; 
         align-items: center;
     }
 
@@ -106,17 +104,56 @@
         margin-right: 0;
         margin-top: 20px;
         text-align: center;
-        // width: 100%; /* Make items full-width on smaller screens */
+        // width: 100%; 
     }
 
     .our-img {
-        margin-bottom: 20px; /* Decreased margin-bottom */
+        margin-bottom: 20px;
     }
 
     .our-h3,
     .our-p {
-        // width: 100%; /* Make text full-width on smaller screens */
-        margin-bottom: 10px; /* Decreased margin-bottom */
+        // width: 100%; 
+        margin-bottom: 10px;
+    }
+}
+
+
+// media our-commitment-----------------------------------------------------------------------------------
+
+/* Add this to your existing CSS file or create a new one */
+
+/* Smaller screens */
+@media only screen and (max-width: 768px) {
+    .our-com-container {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        width: auto; /* Make the container's width auto for better responsiveness */
+        margin-bottom: 50px; /* Adjust margin-bottom for better spacing on smaller screens */
+    }
+
+    .our-com-left {
+        width: auto; /* Make the left container width 100% on smaller screens */
+        height: auto; /* Make the height auto for better responsiveness */
+        margin-right: 0; /* Remove margin-right for better spacing on smaller screens */
+        margin-bottom: 48px;
+    }
+
+    .our-com-right {
+        width: 100%; /* Make the right container width 100% on smaller screens */
+        text-align: center; /* Center-align content on smaller screens */
+
+        margin-bottom: 120px;
+    }
+
+    .our-com-h2 {
+        font-size: $pro1-large-size; /* Decreased font-size for better readability on smaller screens */
+        line-height: 36px; /* Adjust line-height for better spacing on smaller screens */
+        margin-bottom: 30px; /* Adjust margin-bottom for better spacing on smaller screens */
+    }
+
+    .our-com-p {
+        width: auto; /* Make the width auto for better responsiveness */
+        margin-bottom: 20px; /* Adjust margin-bottom for better spacing n smaller screens */
     }
 }
 

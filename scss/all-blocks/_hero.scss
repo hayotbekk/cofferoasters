@@ -73,7 +73,7 @@
 /* Add this to your existing CSS file or create a new one */
 
 /* Smaller screens */
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .hero-container {
         height: 500px; /* Make the container's height auto for better responsiveness */
         margin-bottom: 60px; /* Decreased margin-bottom */
@@ -98,3 +98,37 @@
         margin-bottom: 30px; /* Decreased margin-bottom */
     }
 }
+
+
+
+
+// media about --us hero-----------------------------------------------------------------------------------------------
+
+/* Add this to your existing CSS file or create a new one */
+
+/* Smaller screens */
+@media screen and (max-width: 768px) {
+    .about-us-hero-container {
+        background-position: center;  /* Center the background image on smaller screens */
+        align-items: center;
+        // padding: 20px; /* Adjust padding for better spacing on smaller screens */
+        text-align: center; /* Center-align content on smaller screens */
+        margin-bottom: 120px; /* Adjust margin-bottom for better spacing on smaller screens */
+        border-radius: 10px;
+        height: 400px;
+    }
+
+    .about-us-hero-container h2 {
+        padding-top: 20px; /* Adjust padding-top for better spacing on smaller screens */
+        margin-bottom: 20px; /* Adjust margin-bottom for better spacing on smaller screens */
+
+        text-align: center;
+    }
+
+    .about-us-hero-container p {
+        margin-bottom: 20px; /* Adjust margin-bottom for better spacing on smaller screens */
+        margin-left: 0; /* Remove margin-left for better spacing on smaller screens */
+        width: auto; /* Make the width auto for better responsiveness */
+    }
+}
+

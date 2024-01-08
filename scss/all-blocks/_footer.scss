@@ -27,3 +27,42 @@
     cursor: pointer;
 }
 
+
+// footer media css======================================================
+
+
+/* Add this to your existing CSS file or create a new one */
+
+/* Smaller screens */
+@media screen and (max-width: 768px) {
+    .footer-container {
+        height: auto; /* Make the container's height auto for better responsiveness */
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        text-align: center; /* Center-align content on smaller screens */
+        padding: 20px; /* Adjust padding for better spacing on smaller screens */
+    }
+
+    .footer-logo {
+        margin-right: 0; /* Remove margin-right for better spacing on smaller screens */
+        margin-bottom: 50px; /* Adjust margin-bottom for better spacing on smaller screens */
+    }
+
+    .footer-list {
+        margin-right: 0; /* Remove margin-right for better spacing on smaller screens */
+        margin-bottom: 49px; /* Adjust margin-bottom for better spacing on smaller screens */
+        flex-direction: column;
+
+
+        li {
+            display: block; /* Display list items as blocks for better spacing on smaller screens */
+            gap: 14px;
+            
+        }
+    }
+
+    .local {
+        margin-right: 0; /* Remove margin-right for better spacing on smaller screens */
+        gap: 49px; /* Adjust gap between items for better spacing on smaller screens */
+    }
+}
+
